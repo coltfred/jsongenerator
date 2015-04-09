@@ -1,0 +1,108 @@
+{
+  "label": "hair color",
+  "choices": [
+    {
+      "value": "blonde",
+      "probability": 0.3,
+      "dependents": [
+        {
+          "label": "eye color",
+          "choices": [
+            {
+              "value": "blue",
+              "probability": 0.7
+            },
+            {
+              "value": "brown",
+              "probability": 0.2
+            },
+            {
+              "value": "other",
+              "probability": 0.1
+            }
+          ]
+        },
+        {
+          "label": "nose size",
+          "choices": [
+            {
+              "value": "big",
+              "probability": 0.3
+            },
+            {
+              "value": "medium",
+              "probability": 0.4
+            },
+            {
+              "value": "small",
+              "probability": 0.3
+            }
+          ]
+        },{
+
+          "label": "height",
+          "choices": [
+            {
+              "value": "tall",
+              "probability": 0.4
+            },
+            {
+              "value": "medium",
+              "probability": 0.3
+            },
+            {
+              "value": "short",
+              "probability": 0.3
+            }
+          ]        
+        }
+      ]
+    },
+    {
+      "value": "brown",
+      "probability": 0.5,
+      "dependents": [
+        {
+          "label": "eye color",
+          "choices": [
+            {
+              "value": "blue",
+              "probability": 0.2
+            },
+            {
+              "value": "brown",
+              "probability": 0.4
+            },
+            {
+              "value": "green",
+              "probability": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "black",
+      "probability": 0.2,
+      "dependents": [
+        {
+          "label": "eye color",
+          "choices": [
+            {
+              "value": "blue",
+              "probability": 0.1
+            },
+            {
+              "value": "brown",
+              "probability": 0.6
+            },
+            {
+              "value": "green",
+              "probability": 0.3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
